@@ -1,0 +1,13 @@
+name: 3dalvi-cloud
+services:
+  web:
+    build:
+      context: .
+      args:
+        - VITE_GEMINI_API_KEY=${VITE_GEMINI_API_KEY}
+    container_name: 3dalvi-cloud
+    ports:
+      - "3011:80"
+    restart: unless-stopped
+    environment:
+      - VITE_GEMINI_API_KEY=${VITE_GEMINI_API_KEY}
