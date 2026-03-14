@@ -1,0 +1,5 @@
+{
+  "name": "3d dalvi cloud",
+  "description": "Upload clothing images and convert them to 4K 3D ghost mannequin style using Gemini.",
+  "requestFramePermissions": []
+}
