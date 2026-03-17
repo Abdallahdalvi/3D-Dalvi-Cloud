@@ -1,5 +1,5 @@
 {
   "name": "3d dalvi cloud",
-  "description": "Upload clothing images and convert them to 4K 3D ghost mannequin style using Gemini.",
+  "description": "Upload images of clothes or devices (Kleon) and convert them to 4K 3D models using Gemini and Tripo AI. Supports multi-angle device uploads and direct 3D generation.",
   "requestFramePermissions": []
 }
